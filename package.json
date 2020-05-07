@@ -1,0 +1,17 @@
+{
+  "name": "@sungy/deploy",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "sungy-deploy": "./bin/deploy.js"
+  },
+  "scripts": {
+    "test1": "node ./test/test1.js"
+  },
+  "dependencies": {
+    "commander": "^2.16.0",
+    "ora": "^2.1.0",
+    "ssh2": "^0.6.1"
+  }
+}
